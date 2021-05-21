@@ -134,8 +134,6 @@ import * as ApplicationSettings from "@nativescript/core/application-settings";
           title: "Ваш заголовок",
            message: "Ваше сообщение",
         okButtonText: "Ваш текст кнопки OK"
-        }).then(() => {
-         console.log("Диалоговое окно закрыто");
         });
       },
       chose(){
